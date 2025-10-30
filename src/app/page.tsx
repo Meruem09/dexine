@@ -3,7 +3,9 @@ import { Container } from "../components/container";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Index from "../components/animation";
-import { Animate_curtain } from "../utils/animation";;
+import { Animate_curtain } from "../utils/animation";
+import Card from "../components/card/card";
+;
 export default function Home() {
 
 
@@ -14,7 +16,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
     </Container> */}
-    <Hero/>
+    <Card/>
   </div>
   );
 }
