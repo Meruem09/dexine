@@ -7,6 +7,10 @@
     src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
 }
 
+.navbar{
+    font-family: "Modern Negra";
+}
+
 @theme {
     --color-yellow: #e7d393;
     --color-white-100: #efefef;
