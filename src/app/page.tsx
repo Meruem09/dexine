@@ -3,18 +3,19 @@ import { Container } from "../components/container";
 import Hero from "../components/hero";
 import Index from "../components/animation";
 import { Animate_curtain } from "../utils/animation";
-import Card from "../components/card/card";
+import Card from "../components/cards/card/card";
 import BallBox from "../components/animation/ball";
 import Fall from "../components/animation/path-svg/page";
 import Path from "../components/animation/path-svg/page";
 import FollowingEyes from "../components/animation/eye-follow";
 import Navbar from "../components/mojito/navbar";
+import RetroCard from "../components/cards/retro-card";
 export default function Home() {
 
 
   return (
     <main>
-      <Navbar/>
+      <RetroCard/>
     </main>
   );
 }
