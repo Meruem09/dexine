@@ -7,7 +7,7 @@ export default function RetroCard() {
             <div className='absolute w-[250px] h-[250px] bg-black top-2 left-2'>
 
             </div>
-            <div className='absolute w-[250px] h-[250px] bg-red-600 top-0 left-0 border border-black'>
+            <div className='absolute w-[250px] h-[250px] bg-red-600 top-0 left-0 border border-red-900'>
 
             </div>
         </div>
